@@ -2,6 +2,9 @@
 
 Reactを使用して作成したECサイト風アプリケーションです。（レスポンシブル対応）
 
+## サイトURL
+[https://ecsite-study.herokuapp.com/](https://ecsite-study.herokuapp.com/)
+
 ## 機能一覧
 
 ### 一覧表示（デフォルト画面）
