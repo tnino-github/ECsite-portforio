@@ -39,7 +39,9 @@ class ProductProvider extends Component {
     this.setState(() =>{
       return {products:tempProducts,cart:mycart};
     },()=> {
-      this.addTotals();
+      if( mycart ){
+        this.addTotals();
+      }
     });
   };
 
