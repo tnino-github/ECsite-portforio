@@ -13,7 +13,8 @@ class Cart extends Component {
         <ProductConsumer>
           {value => {
             const {cart} = value;
-            if(Object.keys(cart).length !== 0){
+            //console.log('aaa' + cart);
+            if(cart){
               return(
                 <React.Fragment>
                   <Title name="" title="cart"></Title>
