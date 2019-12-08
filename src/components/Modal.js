@@ -19,7 +19,7 @@ class Modal extends Component {
                 <div className="container">
                   <div className="row">
                     <div id="modal" className="col-8 mx-auto col-md-6 col-lg-4 text-center text-capitalize p-5" >
-                      <h5>item added to the cart</h5>
+                      <h5>カートに追加しました</h5>
                       <img src={img} className="img-fluid" alt="product"></img>
                       <h5>{title}</h5>
                       <h5 className="text-muted">￥ {price}</h5>
